@@ -28,7 +28,10 @@
    </snapshotRepository>
 </distributionManagement>
 
-	<plugin>
+	
+	<build>
+    <plugins>
+     <plugin>
    <artifactId>maven-deploy-plugin</artifactId>
    <version>2.8.2</version>
    <executions>
@@ -40,8 +43,8 @@
          </goals>
       </execution>
    </executions>
-</plugin>
-	
-</plugin>
-	
+	    </plugin>
+    </plugins>
+  </build>
+		
 </project>
